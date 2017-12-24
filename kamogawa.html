@@ -22,10 +22,15 @@
         <!-- Header -->
         <header id="header">
             <a href="index.html" class="logo"><ruby>千葉県<rt>ちばけん</rt></ruby><ruby>鴨川市<rt>かもがわし</rt></ruby></a>
-            <audio src="/assets/bg.mp3" autoplay loop>
+            <audio src="assets/bg.mp3" autoplay loop id="DDLCAudio">
 				<p>OHnO u JUst got beaned haha your browser does not support the audio :((</p>
-				<embed src="/assets/bg.mp3" width="180" height="90" hidden="true" />
-			</audio>
+				<embed src="assets/bg.mp3" width="180" height="90" hidden="true" />
+            </audio>
+
+            <script>
+                var audio = document.getElementById("DDLCAudio");
+                audio.volume = 0.15;
+            </script>
         </header>
 
         <!-- Nav -->
@@ -52,7 +57,7 @@
             <!-- Post -->
             <section class="post">
                 <header class="major">
-                    <span class="date">２０１８<ruby>年<rt>ねん</rt></ruby>９<ruby>月<rt>つき</rt></ruby>１３<ruby>日<rt>にち</rt></ruby></span>
+                    <span class="date">２０１８<ruby>年<rt>ねん</rt></ruby>９<ruby>月<rt>つき</rt></ruby>１３<ruby>日<rt>にち</rt></ruby> - １４<ruby>日<rt>にち</rt></ruby></span>
                     <h1><ruby>鴨川市<rt>かもがわし</rt></ruby></h1>
                     <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br /> facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br /> amet nullam sed etiam veroeros.</p>
                 </header>
